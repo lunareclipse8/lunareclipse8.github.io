@@ -10,7 +10,7 @@ html, body {
 
 
 body {
-	background-color: #e3e3e3;
+	background-color: #e3e3e3; 
 }
 
 ul {
@@ -51,7 +51,9 @@ h2 {
 	
 }
 
-@media screen and (max-width: 1400px), (min-width: 1500px) {
+
+
+@media screen and (max-width:), (min-width:) {
 	p {
 		color: green; 
 	}
@@ -59,18 +61,17 @@ h2 {
  	.sidebar {
  		visibility: hidden;
  	}
-}
-	
+}	
 
 .wrapper {
-
+	width: 1600px;
+	margin: 0 auto; 
 }
 
 				/* HEADER */
 
 .header {
 	height: 396px;
-
 }
 
 .header-top {
@@ -130,21 +131,20 @@ h2 {
 	height: 333px;
 	background-image: url(img/header-bg.png);
 	background-repeat: no-repeat;
-	background-size: 100%;	
-}
-
-.header-bg p {
-	color: #ffffff;
+	background-size: 100%;
+	min-width: 100%;	
 }
 
 .header-bg-container {
 	text-align: center;
 	position: relative;
 	top: 100px;	
+
 }
 
 .header-bg-name {
 	font-size: 250%;
+	color: #fff;
 }
 
 .bg-line {
@@ -164,6 +164,9 @@ h2 {
 	color: #fff;
 }
 
+.header-bg-name-bottom-container {
+	margin-top: 20px;
+}
 
 .header-bg-img {
 
@@ -172,14 +175,13 @@ h2 {
 			/* MAIN-CONTENT */
 
 .main-content {  
-
+	padding-top: 86px;
 }
 
 .main {
 	width: 57.6%;
 	display: inline-block;
 	margin-left: 7.5%;
-	padding-top: 86px;
 }
 
 .main-button-read-more {
@@ -251,10 +253,8 @@ h2 {
 .sidebar {
 	width: 23%;
 	display: inline-block;
-	margin-left: 3.5%;	
-	position: relative; 
-	bottom: 1536px;
-	max-width: 100%;
+	margin-left: 7.5%;;	
+	vertical-align: top;
 	
 }  
 
@@ -391,39 +391,47 @@ h2 {
 
 .footer { 
 	background-image: url(img/bg-footer.png);
-	height: 645px;	
 	color: #fff;
+}
 
+.footer-bg-container {
+	width: 1600px;
+	margin: 0 auto;
+	height: 645px;
 }
 
 .footer a {
 	color: #fff;
 }
-
-.footer-container-left, .footer-container-rigtht{
-	display: inline-block;
-}	
+	
+.footer-container-main {
+	
+}
 
 .footer-container-left {
 	width: 30%;
-	display: inline-block;
 	margin-top: 58px;
 	padding-left: 7.5%;
+	display: inline-block;
+	margin-right: 33px;
 }
 
 .footer-container-right {
-	width: 61%;
+	width: 60%;
 	display: inline-block;
-	position: relative;
-	bottom: 114px;
+	vertical-align: top;
+	margin-top: 80px;
 }
 
 .footer-underline {
-
+	margin-top: 35px;
+	width: 1363px;
 }
 
 .copyright {
 	font-family:'Crimson Text';
+	margin-top: 35px;
+	padding-left: 7.5%;
 }
 
 			/* FOOTER LEFT */
