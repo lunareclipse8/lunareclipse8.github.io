@@ -52,7 +52,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 960px), (min-width: ) {
+@media screen and (max-width: 959px), (min-width: ) {
 
 .main-content .sidebar {
  	display: none;	
@@ -72,7 +72,7 @@ h2 {
 
 }	 
 
-@media screen and (max-width: 960px ) {
+@media screen and (max-width: 959px ) {
 
 .media-menu {
 	width: 50px;
@@ -92,7 +92,7 @@ h2 {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 960px) {
 
 	.media-menu a i {
 		display: none;
