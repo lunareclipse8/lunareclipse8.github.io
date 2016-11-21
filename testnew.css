@@ -52,7 +52,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px), (min-width: ) {
 
 .main-content .sidebar {
  	display: none;	
@@ -72,31 +72,54 @@ h2 {
 
 }	 
 
-@media screen and (max-width: 960px) {
-
-.media-menu {
-	width: 50px;
-	height: 50px;
-	background: #000;
-	text-align: center;
-}
-
-.media-menu a i {
-	color: #fff;
-	margin-top: 16%;
-}
-
-.media-menu:hover {
-	
-}
-
-}
-
-@media screen and (max-width: 960px) {
-
-	.media-menu a i {
-		display: none;
+@media screen and (max-width: 320px), (min-width:) {
+	.main-content .main {
+	margin-left: 5%;
 	}
+
+	.wrapper .main-content {  
+	padding-top: 0px;
+	}
+
+	.footer-container-right .footer-form-message {
+	width: 35.8%;
+	height: 96px;
+	}
+
+	 .header .header-logo {
+	 	display: none;
+	 }
+
+	 .header .social-media {
+	 	display: none;
+	 }
+
+	 body .header {
+	 	height: 320px;
+	 }
+
+	 .header-bg-container
+	 .header-bg-name,
+	 .header-bg-container
+	 .header-bg-name-bottom-left,
+	 .header-bg-container
+	 .symbol,
+	 .header-bg-container
+	 .header-bg-name-bottom-right {
+		color: #757575;
+	 }
+
+										 
+	 .form-block .footer-form-name, 
+	 .form-block .footer-form-email, 
+	 .form-block .footer-form-telephone, 
+	 .form-block .footer-form-website,
+	 .footer-container-right .footer-form-message  {
+		width: 100%;
+	 }
+
+
+
 }
 
 
@@ -538,13 +561,20 @@ h2 {
 
 			/* FOOTER RIGTH */
 
-.footer-form-name, .footer-form-email, .footer-form-telephone, .footer-form-website {
+.footer-form-name,
+.footer-form-email,
+.footer-form-telephone, 
+.footer-form-website {
 	width: 36.2%;
 	height: 55px;
 }
 
 
-.footer-form-name, .footer-form-email, .footer-form-telephone, .footer-form-website, .footer-form-message {
+.footer-form-name, 
+.footer-form-email, 
+.footer-form-telephone, 
+.footer-form-website, 
+.footer-form-message {
 	background: none;
 	border: 2px solid #464646;
 	color: #fff;
@@ -555,7 +585,12 @@ h2 {
 }
 
 
-.footer-form-name, .footer-form-email, .footer-form-telephone, .footer-form-website, .footer-form-message, .footer-form-submit {
+.footer-form-name, 
+.footer-form-email, 
+.footer-form-telephone, 
+.footer-form-website, 
+.footer-form-message, 
+.footer-form-submit {
 	margin: 0% 0% 2% 2.1%;
 }
 
