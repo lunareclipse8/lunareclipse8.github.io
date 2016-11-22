@@ -52,7 +52,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 600px) {
 
 .main-content .sidebar {
  	display: none;	
