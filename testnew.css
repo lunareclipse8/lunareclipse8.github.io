@@ -72,7 +72,7 @@ h2 {
 
 }	 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 420px) {
 	.main-content .main {
 	margin-left: 5%;
 	}
