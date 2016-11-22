@@ -52,7 +52,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
 
 .main-content .sidebar {
  	display: none;	
@@ -63,7 +63,7 @@ h2 {
 	} 	
 
 .header-bg-container .header-bg-name {
-	/* font-size: 150%; */
+	color: red;
 	}
 
 .footer-container-left {
