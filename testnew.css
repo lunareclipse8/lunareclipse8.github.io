@@ -52,7 +52,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 1000px), (min-width: ) {
+@media screen and (max-width: 1024px), (min-width: ) {
 
 .main-content .sidebar {
  	display: none;	
@@ -63,7 +63,7 @@ h2 {
 	} 	
 
 .header-bg-container .header-bg-name {
-	font-size: 150%;
+	/* font-size: 150%; */
 	}
 
 .footer-container-left {
@@ -72,7 +72,7 @@ h2 {
 
 }	 
 
-@media screen and (max-width: 1000px), (min-width: ) {
+@media screen and (max-width: 320px), (min-width:) {
 	.main-content .main {
 	margin-left: 5%;
 	}
@@ -122,6 +122,58 @@ h2 {
 
 }
 
+@media screen and (max-width: 1280px) {
+	.header-top .social-media {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.header-top .header-logo {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+	 .header-bg-container
+	 .header-bg-name {
+		font-size: 150%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	 .header-bg-container
+	 .header-bg-name  {
+		font-size: 120%;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	 .header-bg-container
+	 .header-bg-name {
+		font-size: 100%;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	 .header-bg-container {
+		 
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.header-bg-container
+	 .header-bg-name,
+	 .header-bg-container
+	 .header-bg-name-bottom-left,
+	 .header-bg-container
+	 .symbol,
+	 .header-bg-container
+	 .header-bg-name-bottom-right {
+		color: #757575;
+	 }
+}
 
 
 .wrapper {
@@ -132,13 +184,13 @@ h2 {
 				/* HEADER */
 
 .header {
-	height: 396px;
+	height: 396px; /* 51% */
 }
  
 .header-top {
 	font-family: 'Montserrat';
-	background-color: #ffffff;
-	height: 14%; 
+	background-color: #fff;
+	min-height: 14%; 
 	text-align: center;
 }
 
@@ -185,6 +237,10 @@ h2 {
 
 .menu-link-text span {
 	
+}
+
+.menu-link-text:hover {
+	border-bottom: 1px solid #999999;
 }
 
 .social-media {
@@ -331,7 +387,7 @@ h2 {
 .sidebar-search {
 	width: 100%;
 	border: 1px solid #a8a8a8;
-	height: 34px;
+	height: 34px;	
 }
 
 .search[type="search"]{
@@ -351,6 +407,9 @@ h2 {
 	background: #e3e3e3;
 	width: 10%;
 	display: inline-block;
+	/* position: absolute;
+	right: -12px;
+	top: 490px; */
 }
 
 .sidebar .fa-search {
@@ -581,7 +640,7 @@ h2 {
 	font-family: 'Crimson Text';
 	font-style: italic;
 	font-size: 100%;
-	padding-left: 22px;
+	padding-left: 2.2%;
 }
 
 
@@ -595,7 +654,7 @@ h2 {
 }
 
 .footer-form-message {
-	width: 77.8%;
+	width: 78%;
 	height: 96px;
 }
 
