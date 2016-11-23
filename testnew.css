@@ -63,7 +63,7 @@ h2 {
 	} 	
 
 .header-bg-container .header-bg-name {
-	
+	/* font-size: 150%; */
 	}
 
 .footer-container-left {
@@ -72,7 +72,7 @@ h2 {
 
 }	 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
 	.main-content .main {
 	margin-left: 5%;
 	}
@@ -82,8 +82,8 @@ h2 {
 	}
 
 	.footer-container-right .footer-form-message {
-	width: 35.8%;
-	height: 96px;
+	 width: 35.8%;
+	 height: 96px;
 	}
 
 	 .header .header-logo {
@@ -117,8 +117,6 @@ h2 {
 	 .footer-container-right .footer-form-message  {
 		width: 100%;
 	 }
-
-
 
 }
 
@@ -207,8 +205,8 @@ h2 {
 	
 }
 
-.header-logo  {
-	
+.header-logo:hover  {
+	opacity: 0.8;
 }
 
 .logo-img {
@@ -244,11 +242,15 @@ h2 {
 }
 
 .social-media {
-	margin-left: 200px; 
+	margin-left: 17%; 
 }
 
 .social-item {
 	display: inline-block;
+}
+
+.social-link:hover {
+	opacity: 0.8;
 }
 
 			/* HEADER BG */
@@ -273,6 +275,10 @@ h2 {
 	color: #fff;
 }
 
+.header-bg-name:hover {
+	opacity: 0.6;
+}
+
 .bg-line {
 	
 }
@@ -288,6 +294,10 @@ h2 {
 
 .header-bg-name-bottom-link-left, .header-bg-name-bottom-link-right {
 	color: #fff;
+}
+
+.header-bg-name-bottom-link-left:hover, .header-bg-name-bottom-link-right:hover {
+	opacity: 0.4;
 }
 
 .header-bg-name-bottom-container {
@@ -317,6 +327,10 @@ h2 {
 	background: #e3e3e3;
 	font-family: 'Montserrat';
 	letter-spacing: 1px;
+}
+
+.main-button-read-more:hover {
+	opacity: 0.8;
 }
 
 .main-bottom-pages {
@@ -412,6 +426,10 @@ h2 {
 	top: 490px; */
 }
 
+.search-button:hover {
+	opacity: 0.5;
+}
+
 .sidebar .fa-search {
 	font-size: 130%;
 	color: #5c5c5c;
@@ -462,6 +480,14 @@ h2 {
 	font-style: italic;
 }
 
+.categories-item-link {
+	color: #000;
+}
+
+.categories-item-link:hover {
+	border-bottom: 1px solid #999999;
+}
+
 .categories i {
 	padding: 22px 0px 22px 0px;
 }
@@ -484,6 +510,14 @@ h2 {
 
 .archives i {
 	padding: 22px 0px 22px 0px;
+}
+
+.archives-item-link {
+	color: #000;
+}
+
+.archives-item-link:hover {
+	border-bottom: 1px solid #999999;
 }
 
 			/* FLICKR PHOTOS */
@@ -617,6 +651,10 @@ h2 {
 	display: inline-block;
 }
 
+.footer-social-link:hover {
+	opacity: 0.8;
+}
+
 
 			/* FOOTER RIGTH */
 
@@ -669,6 +707,10 @@ h2 {
 	border: none;
 	color: #fff;
 	display: block;
+}
+
+.footer-form-submit:hover {
+	opacity: 0.8;
 }
 
 
